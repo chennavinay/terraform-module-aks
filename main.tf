@@ -54,8 +54,8 @@ resource "azurerm_kubernetes_cluster" "aks" {
   }
 
   service_principal {
-    client_id       = "36baaee0-b871-4ece-b02a-027c009c00bc"
-    client_secret   = "14g7]_Rrs?VB6=sh2t4S[wYzK_p0VfI9"
+    client_id       = ""
+    client_secret   = ""
   }
 
   tags              = "${var.tags}"
