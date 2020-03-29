@@ -3,9 +3,9 @@ provider "azurerm" {
   version = "=2.3.0"
   features {}
   subscription_id = ""
-  client_id       = "36baaee0-b871-4ece-b02a-027c009c00bc"
+  client_id       = ""
   client_secret   = ""
-  tenant_id       = "8ac5aed4-f3af-48ac-9c9b-601de02603fa"
+  tenant_id       = ""
 }
 
 terraform {
